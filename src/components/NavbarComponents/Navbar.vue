@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import SearchBar from './SearchBar.vue';
+import ProfileDropDown from './ProfileDropdownComponent/ProfileDropDown.vue';
 </script>
 
 <template>
@@ -11,7 +12,9 @@ import SearchBar from './SearchBar.vue';
         <div class="navC2">
             <SearchBar />
         </div>
-        <div class="navC3">Profile</div>
+        <div class="navC3">
+            <ProfileDropDown />
+        </div>
     </nav>
 </template>
 

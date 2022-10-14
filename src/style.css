@@ -13,4 +13,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* colors */
+  --main-background-color: #181818;
+  --black-background-color: hsl(0, 0%, 7%);
+  --black-border-color: hsl(0, 0%, 18.82%);
+  --blue-border-color: #1c62b9;
+  --srch-btn-background-color:hsla(0, 0%, 100%, 0.08);
+  --txt-color: #fff;
+  --btn-red-color: #c00;
+  --light-white: #aaa;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
 }
